@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* default color */
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#change-color-btn:hover {
+    background-color: #27ae60;
+}
